@@ -51,10 +51,11 @@
     border: 3px solid #B5C99A;
     margin-left: 20px;
     margin-top: 190px;
-    width: 350px;
+    width: 340px;
   }
     
   section>figure>figcaption {
+    font-size: 15px;
     font-style: italic;
     margin-left: 15px;
   }
@@ -126,6 +127,7 @@
   }
 
   .contatos {
+    margin-left: 20px;
     margin-bottom: 15px;
   }
 
@@ -134,8 +136,12 @@
     margin-bottom: 10px;
   }
 
+  .contatos>ul>li {
+    list-style-type: none;
+  }
+
   .contatos>ul>li>a {
-    color: black;
+    color: black;    
     line-height: -6px;
     text-decoration: none;
   }
