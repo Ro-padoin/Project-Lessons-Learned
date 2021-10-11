@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Lessons Learned</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -15,9 +23,11 @@
 
     <section class="section-nav-bar">
       <nav class="nav-bar">
-        <li>Licoes Aprendidas</li>
-        <li>Licoes a Aprender</li>
-        <li>Contatos</li>
+        <li> <a href="#about"> Quem sou eu</a> </li>
+        <li> <a href="#licoes_aprendidas">Lições Aprendidas</a> </li>
+        <li> <a href="#licoes_a_aprender">Lições a Aprender</a> </li>
+        <li> <a href="#contatos">Contatos</a> </li>
+        <li class="hiperlink"> <a href="https://www.betrybe.com/" target="_blank"> Conheça a Trybe</a></li>
       </nav>
     </section>
 
@@ -25,56 +35,62 @@
 
   <main>
 
-    <section class="descricao">
-     
-         <figure class="foto-profile">
+    <header id="about">
+
+      <section class="descricao">
+        <figure class="foto-profile">
           <img id="minha_foto" src="./Imagens/IMG_9407_Original.jpg" alt="foto perfil">
           <figcaption>
-            Rosalia Padoin Oliveira
+            <strong>Rosalia Padoin Oliveira</strong><br>
+            Bacharel em Administração | FACIERC - SC | 2011 <br>
+            Estudante Desenvolvimento WEB | Trybe | 2021
           </figcaption>
         </figure>
+      </section>
 
-      <div class="formacao">
+    </header>
 
-        <p>Bacharel em Administração | FACIERC - SC | 2011</p>
-        <p>Estudante Desenvolvimento WEB | Trybe | 2021</p>
-      
-
-      <div class="hiperlink">
-        <p>Conheça a Trybe:</p>
-        <a href="https://www.betrybe.com/" target="_blank">Trybe</a>
-      </div>
-    </div>
-
-  
-    </section>
-   
     <section class="list-lessons">
-      <ol id="licoes_aprendidas">
-        <li>licoes</li>
-        <li>licoes</li>
-        <li>licoes</li>
-        <li>licoes</li>
-        <li>licoes</li>
-        <li>licoes</li>
-        <li>licoes</li>
-        <li>licoes</li>
-        <li>licoes</li>
-        <li>licoes</li>
-      </ol>
 
-      <ul id="licoes_a_aprender">
-        <li>licoes a aprender</li>
-        <li>licoes a aprender</li>
-        <li>licoes a aprender</li>
-        <li>licoes a aprender</li>
-        <li>licoes a aprender</li>
-        <li>licoes a aprender</li>
-        <li>licoes a aprender</li>
-        <li>licoes a aprender</li>
-        <li>licoes a aprender</li>
-        <li>licoes a aprender</li>
-      </ul>
+      <div class="list-aprendidas">
+
+        <h3 class="aprendida">Lições aprendidas</h3>
+
+        <ol id="licoes_aprendidas">
+          <li>Unix e Bash</li>
+          <li>Internet</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>Introdução ao CSS</li>
+          <li>Introdução ao HTML</li>
+          <li>Introdução ao JavaScript</li>
+          <li>Zoom</li>
+          <li>Slack</li>
+          <li>Soft Skills</li>
+        </ol>
+
+      </div>
+
+      <div class="list-aprender">
+
+        <h3 class="aprender">Lições a aprender</h3>
+
+        <ul id="licoes_a_aprender">
+
+          <li>JavaScript</li>
+          <li>DOM</li>
+          <li>Css Responsivo</li>
+          <li>Form</li>
+          <li>ES6</li>
+          <li>HOF</li>
+          <li>Unit Testes</li>
+          <li>React</li>
+          <li>Node</li>
+          <li>SQL</li>
+        </ul>
+
+      </div>
+
     </section>
 
     <section class="position">
@@ -82,12 +98,11 @@
       <section class="lado-esquerdo">
         <article class="articles">
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur
-            adipisicing
-            elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur
-            adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet
-            consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit
-            amet consectetur adipisicing elit.
+            Meu aprendizado na Trybe está sendo muito gratificante. Não imaginei que seria capaz de aprender o que sei
+            hoje, mas estou só no começo do caminho e ainda tem muita estrada pela frente. A persistência, disciplina,
+            motivação, organização e curiosidade fazem parte da minha rotina de estudos. Mas o estudo vai além das Hard
+            Skills, estamos aprendendo também sobre Soft Skills, características subjetivas muito apreciadas pelo
+            mercado de trabalho atualmente.
           </p>
         </article>
 
@@ -96,17 +111,19 @@
       <section class="lado-direito">
         <aside class="text-aside">
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing
-            elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Tenho buscado aprender um conteúdo por vez, um pouco por dia. Acompanhando o ritmo de aulas que a Trybe
+            fornece. Não quero me comparar com os colegas, pois cada um tem um ritmo diferente de aprendizado e de
+            conhecimentos anteriores ao curso. Já passei por essa situação no início do bloco 3 - conteúdo de Introdução
+            ao CSS e HTML - e confesso que não foi uma boa experiência. Mas me foquei novamente no meu ritmo e consegui
+            evoluir muito.
           </p>
-
         </aside>
 
       </section>
 
     </section>
 
-    <section>
+    <section class="table">
       <table class="tabela">
 
         <tr>
@@ -123,9 +140,22 @@
       </table>
     </section>
 
+    <section class="contatos">
+      <h4 id="contatos">Contatos: </h4>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/rosalia-padoin-oliveira/" target="_blank"
+            alt="perfil Linkedin">Linkedin</a></li>
+        <li><a href="https://www.linkedin.com/in/rosalia-padoin-oliveira/" target="_blank"
+            alt="Perfil GitHub">GitHub</a></li>
+        <li><a href="mailto:padoinrosalia@gmail.com">E-mail</a></li>
+      </ul>
+    </section>
+
   </main>
 
-  <footer id="rodape">Rodape</footer>
+  <footer id="rodape">
+    "Conteúdo elaborado por <strong>Rosalia Padoin Oliveira</strong> estudante Desenvolvimento WEB na Trybe | Ano 2021."
+  </footer>
 
 </body>
 
