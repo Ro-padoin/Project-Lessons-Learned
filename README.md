@@ -1,6 +1,7 @@
 Boas vindas ao repositório do projeto Lições Aprendidas!
 
-Habilidades
+# Habilidades:
+
 Neste projeto, você será capaz de:
 
 Utilizar HTML para construir páginas WEB.
